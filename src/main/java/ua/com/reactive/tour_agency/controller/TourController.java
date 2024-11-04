@@ -1,22 +1,33 @@
 package ua.com.reactive.tour_agency.controller;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
 import ua.com.reactive.tour_agency.entity.Tour;
+import ua.com.reactive.tour_agency.service.TourService;
 
 @RestController
+@RequestMapping("/tourController")
 public class TourController {
 
-    @GetMapping("/tours")
-    public Flux<Tour> getTours() {
+    private final TourService tourService;
 
-        return Flux.just(
-                new Tour(1L, "Путівка в Іспанію", "Путівка", 5000, false),
-                new Tour(2L, "Різдво в Ісландії", "Святкування", 8500, true),
-                new Tour(3L, "Відпочинок у Мюнхені", "Відпочинок", 3000, false)
-        )
-                .skip(0)
-                .take(2);
+    @Autowired
+    public TourController(TourService tourService) {
+        this.tourService = tourService;
+    }
+
+    @GetMapping
+    public Flux<Tour> list (
+            @RequestParam(defaultValue = "0") Long start,
+            @RequestParam(defaultValue = "3") Long count
+    ) {
+        return tourService.list();
+    }
+
+    @PostMapping
+    public Mono<Tour> create(@RequestBody Tour tour) {
+        return tourService.addOne(tour);
     }
 }

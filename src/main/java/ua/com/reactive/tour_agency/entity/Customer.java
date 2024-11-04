@@ -1,6 +1,7 @@
 package ua.com.reactive.tour_agency.entity;
 
 import lombok.*;
+import org.springframework.data.annotation.Id;
 
 import java.util.Objects;
 
@@ -11,6 +12,7 @@ import java.util.Objects;
 
 public class Customer {
 
+    @Id
     private Long id;
     private String firstName;
     private String lastName;

@@ -1,24 +1,33 @@
 package ua.com.reactive.tour_agency.controller;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
 import ua.com.reactive.tour_agency.entity.Customer;
+import ua.com.reactive.tour_agency.service.CustomerService;
 
 @RestController
+@RequestMapping("/customerController")
 public class CustomerController {
 
-    @GetMapping("/customers")
-    public Flux<Customer> getClients() {
+    private final CustomerService customerService;
 
-        return Flux.just(
-                        new Customer(1L, "Вася", "Пупкін", 18, false),
-                        new Customer(2L, "Іва", "Пупкіна", 19, false),
-                        new Customer(3L, "Інна", "Пупкіна", 20, true)
-                )
-                .skip(0)
-                .take(2);
+    @Autowired
+    public CustomerController(CustomerService customerService) {
+        this.customerService = customerService;
     }
 
+    @GetMapping
+    public Flux<Customer> list (
+            @RequestParam(defaultValue = "0") Long start,
+            @RequestParam(defaultValue = "3") Long count
+    ) {
+        return customerService.list();
+    }
 
+    @PostMapping
+    public Mono<Customer> create(@RequestBody Customer customer) {
+        return customerService.addOne(customer);
+    }
 }

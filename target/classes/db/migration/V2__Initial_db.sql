@@ -1,23 +1,23 @@
-create table tours (
+create table tour (
     id bigserial primary key,
-    tourName varchar(50) not null,
-    tourType varchar(30) not null,
-    tourPrice double precision(2) not null,
-    isHot bytea not null
+    tour_name varchar(50) not null,
+    tour_type varchar(30) not null,
+    tour_price double precision not null,
+    is_hot boolean not null
 );
 
-create table customers(
+create table customer(
     id bigserial primary key,
-    firstName varchar(50) not null,
-    lastName varchar(30) not null,
+    first_name varchar(50) not null,
+    last_name varchar(30) not null,
     age integer not null,
-    isRegular bytea not null
+    is_regular boolean not null
 );
 
-create table bookings (
+create table booking (
     id bigserial primary key,
-    tourId bigserial references tours(id),
-    customerId bigserial references customers(id),
-    bookingDate date not null ,
-    totalPrice double precision(2) not null
+    tour_id bigserial references tour(id),
+    customer_id bigserial references customer(id),
+    booking_date date not null ,
+    total_price double precision not null
 );
