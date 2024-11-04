@@ -1,0 +1,42 @@
+<component name="libraryTable">
+  <library name="springframework.boot.spring.starter.data.r2dbc" type="repository">
+    <properties maven-id="org.springframework.boot:spring-boot-starter-data-r2dbc:3.2.4" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/spring-boot-starter-data-r2dbc-3.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-boot-starter-3.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-boot-3.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-boot-autoconfigure-3.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-boot-starter-logging-3.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/logback-classic-1.4.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/logback-core-1.4.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-to-slf4j-2.21.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-api-2.21.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jul-to-slf4j-2.0.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jakarta.annotation-api-2.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-core-6.1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-jcl-6.1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/snakeyaml-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-data-r2dbc-3.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-data-relational-3.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jsqlparser-4.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-data-commons-3.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-tx-6.1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-context-6.1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-aop-6.1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-expression-6.1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/micrometer-observation-1.12.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/micrometer-commons-1.12.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-beans-6.1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-jdbc-6.1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-r2dbc-6.1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/reactor-core-3.6.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-2.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/r2dbc-spi-1.0.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/reactive-streams-1.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/r2dbc-pool-1.0.1.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/reactor-pool-1.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

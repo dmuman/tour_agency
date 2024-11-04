@@ -1,0 +1,34 @@
+<component name="libraryTable">
+  <library name="postgresql.r2dbc" type="repository">
+    <properties maven-id="org.postgresql:r2dbc-postgresql:1.0.7.RELEASE" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/r2dbc-postgresql-1.0.7.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/r2dbc-spi-1.0.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/reactive-streams-1.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/client-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/common-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/saslprep-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/stringprep-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/reactor-core-3.5.20.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/reactor-netty-core-1.1.22.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/netty-handler-4.1.112.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/netty-common-4.1.112.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/netty-resolver-4.1.112.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/netty-buffer-4.1.112.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/netty-transport-4.1.112.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/netty-transport-native-unix-common-4.1.112.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/netty-codec-4.1.112.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/netty-handler-proxy-4.1.112.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/netty-codec-socks-4.1.112.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/netty-codec-http-4.1.112.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/netty-resolver-dns-4.1.112.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/netty-codec-dns-4.1.112.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/netty-resolver-dns-native-macos-4.1.112.Final-osx-x86_64.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/netty-resolver-dns-classes-macos-4.1.112.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/netty-transport-native-epoll-4.1.112.Final-linux-x86_64.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/netty-transport-classes-epoll-4.1.112.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

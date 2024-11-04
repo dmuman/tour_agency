@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="springframework.spring.jdbc" type="repository">
+    <properties maven-id="org.springframework:spring-jdbc:6.1.12" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/spring-jdbc-6.1.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-beans-6.1.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-core-6.1.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-jcl-6.1.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-tx-6.1.12.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
